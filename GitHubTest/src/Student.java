@@ -12,4 +12,9 @@ public Student(String name, double gebJahr, int ects) {
 public int getEcts() {
 	return ects;
 }
+
+public double getAlter() {
+	return 2019 - gebJahr;
+}
+
 }
